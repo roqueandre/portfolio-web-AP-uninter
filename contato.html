@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/style.css">
+        <script src="script/script.js" defer></script>
+        <title>Portfólio André Roque</title>
+    </head>
+    <body>
+        <header>
+            <div class="banner"></div>
+            <nav class="menu">
+                <ul>
+                    <li>André Luiz Roque da Silva</li>
+                    <li><a href="index.html#content-about">Sobre mim</a></li>
+                    <li><a href="formacao.html">Formação</a></li>
+                    <li><a href="portfolio.html">Portfólio</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>         
+            </nav>
+        </header>
+        <main class="content mail">
+            <h1>Contato</h1>
+            <p>Se você deseja entrar em contato comigo, seja para oportunidades profissionais, parcerias ou troca de experiências na área de tecnologia, ficarei feliz em conversar. Você pode me contatar enviando uma mensagem abaixo.</p>
+            <form action="" method="GET" class="formContact" name="myForm" id="formReset">
+                <label for="name">Nome: </label>
+                <input type="text" id="name" name="name" placeholder="Nome completo">
+                <label for="email">E-mail: </label>
+                <input type="email" id="email" name="email" placeholder="email@email.com">
+                <label for="msg">Mensagem</label>
+                <textarea name="msg" id="msg" rows="4" cols="50" placeholder="Digite sua mensagem"></textarea>
+                <button type="button" id="btn" >Enviar</button>    
+            </form>
+        </main>
+        <dialog id="modal">
+            <form method="dialog">
+                <div id="modalMsg"></div>
+                <button id="closeBtn">Fechar</button>
+            </form>
+        </dialog>
+        <footer class="footer">
+            <ul>
+                <li><a href="https://github.com/roqueandre" target="_blank"><img src="img/gith.svg" alt="github logo" width="30px"></a></li>
+                <li><a href="https://linkedin.com/in/andre-roque-silva" target="_blank"><img src="img/linkd.svg" alt="linkedin logo" width="32px"></a></li>
+            </ul>
+        </footer>
+    </body>
+</html>
